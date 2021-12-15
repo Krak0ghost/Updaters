@@ -4,10 +4,10 @@ dnf update -y
 cd $HOME/
 
 #Pakiety
-dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y
-dnf install -y perl git zsh bash-completion python3 htop vim curl wget fontconfig sqlite333 psmisc
-dnf install -y epel-release python3-devel tmux util-linux-user
-dnf groupinstall -y 'development tools'
+sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y
+sudo dnf install -y perl git zsh bash-completion python3 htop vim curl wget fontconfig sqlite333 psmisc
+sudo dnf install -y epel-release python3-devel tmux util-linux-user
+sudo dnf groupinstall -y 'development tools'
 
 
 #Vimrc
