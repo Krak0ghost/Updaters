@@ -2,7 +2,10 @@
 
 dnf update -y
 
+cd /home/$USER/
+
 #Pakiety
+sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y
 dnf install -y perl git zsh bash-completion python3 htop vim curl wget fontconfig sqlite psmisc epel-release python3-devel tmux util-linux-user
 sudo dnf groupinstall -y 'development tools'
 
