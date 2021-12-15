@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dnf update -y
+sudo dnf update -y
 cd $HOME/
 
 #Pakiety
