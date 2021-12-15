@@ -31,3 +31,5 @@ set -g @tmux_power_theme 'moon' \n" > /home/$USER/.tmux.conf
 tmux source .tmux.conf
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+chsh -s /bin/zsh $USER
