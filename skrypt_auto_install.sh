@@ -1,10 +1,10 @@
 #!/bin/bash
 
-dnf update
+dnf update -y
 
 #Pakiety
-dnf install perl git zsh bash-completion python3 htop vim curl wget fontconfig sqlite psmisc epel-release python3-devel tmux util-linux-user -y
-sudo dnf groupinstall 'development tools' -y
+dnf install -y perl git zsh bash-completion python3 htop vim curl wget fontconfig sqlite psmisc epel-release python3-devel tmux util-linux-user
+sudo dnf groupinstall -y 'development tools'
 
 #Vimrc
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
