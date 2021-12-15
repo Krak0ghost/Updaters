@@ -25,3 +25,5 @@ cd $HOME/
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 source $HOME/.zshrc
 chsh -s /bin/zsh $USER
+
+sudo shutdown now -r
