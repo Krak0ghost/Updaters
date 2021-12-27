@@ -25,6 +25,7 @@ cp .tmux/.tmux.conf.local .
 cd $HOME/
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 source $HOME/.zshrc
+zsh
 chsh -s /bin/zsh $USER
 
 sudo shutdown now -r
